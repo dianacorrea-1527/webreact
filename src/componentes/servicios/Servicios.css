@@ -1,0 +1,40 @@
+
+
+
+.card{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.jumbotron-heading {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+   
+}
+.lead text-dark {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(136,221, 445, 0.65)!important;
+    transition: all 0.7s linear;
+    border: 5px solid blue !important;
+}
+
+.card-body {
+    padding: 2rem 0 !important;
+}
+.card-text{
+    padding: 0.3rem 1rem;
+
+}
+/*.container-cards {
+    background-color: brown;
+}*/
+
+
