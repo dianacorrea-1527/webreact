@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/paginawebb/static/css/main.c4f5f0a4.css",
+    "main.js": "/paginawebb/static/js/main.91bef845.js",
+    "index.html": "/paginawebb/index.html",
+    "main.c4f5f0a4.css.map": "/paginawebb/static/css/main.c4f5f0a4.css.map",
+    "main.91bef845.js.map": "/paginawebb/static/js/main.91bef845.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4f5f0a4.css",
+    "static/js/main.91bef845.js"
+  ]
+}
