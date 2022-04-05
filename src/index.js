@@ -7,6 +7,8 @@ import './index.css';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+//importamos animate css
+import 'animate.css/animate.min.css'
  
 // Páginas del Sitio Web
 import Home from './componentes/home/Home'; 

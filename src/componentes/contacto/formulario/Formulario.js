@@ -84,10 +84,11 @@ onChange={(e)=>setMensaje(e.target.value)}
       
       />
      <label htmlFor='cableado'>Cableado </label>
+     
 
-
-    
-    <label htmlfor = 'terminos'>Acepto terminos y condiciones</label>
+     <br></br>
+  <br></br>
+    <label htmlFor = 'terminos'>Acepto terminos y condiciones</label>
   <input type='checkbox' id='terminos' name='terminos' onChange={(e)=>setTerminos(e.target.checked)}></input>
   <br></br>
   <br></br>

@@ -17,7 +17,7 @@ class Servicios extends React.Component {
 			<>
  
 			<Menu />
-            <div className='cards'>
+            <div className='card'>
 			<main role="main" className="flex-shrink-0 mt-5">
  
  <section className="text-center">
@@ -34,12 +34,12 @@ class Servicios extends React.Component {
 
 	   <div className="row">
 		 <div className="col-md-4">
-		  
-		   <div className="card mb-4 shadow-sm">
+		 <div className='card mb-4 '>
+		   <div className="overflow">
 		 
-			   <img src= {process.env.PUBLIC_URL + 'images/img2.jpg'}  alt=""/>
+			   <img src= {process.env.PUBLIC_URL + 'images/img2.jpg'}  alt="" className='card-img-top'/>
 			   
-			 
+			   </div>
 			   <div className="card-body text-dark">
 			 <h5 className='card-tittle text-primary '>Backup</h5>
 			   <p className="card-text-primary">copia de seguridad a mayor o menor escala. Puede ser una versión reciente de la información contenida en todos los equipos de nuestra compañía, o puede tratarse de servidores completos con ingentes cantidades de datos.</p>
@@ -48,18 +48,21 @@ class Servicios extends React.Component {
 				 <div className="btn-group">
 				   <button type="button" className="btn btn-info btn-sm">Leer</button>
 				   
-				   
+		          </div>
 				 
-				   </div>
-				 
-			   </div>
+			   
 			 </div>
 		   </div>
 		 </div>
+		 </div>
+
+		 
 		 <div className="col-md-4">
-		   <div className="card mb-4 shadow-sm">
-		   <img src= {process.env.PUBLIC_URL + 'images/img3.jpg'}  alt=""/>
-		   
+		  
+		   <div className='card mb-4 '> 
+		   <div className="overflow">  
+		   <img src= {process.env.PUBLIC_URL + 'images/img3.jpg'}  alt="" className='card-img-top'/>
+		   </div>
 			 <div className="card-body text-dark">
 			 <h5 className='card-tittle text-primary '>AWS</h5>
 			   <p className="card-text">Los servicios de nube son infraestructuras, plataformas o sistemas de software que alojan los proveedores externos y que se ponen a disposición de los usuarios a través de Internet. </p>
@@ -71,11 +74,15 @@ class Servicios extends React.Component {
 				 
 			   </div>
 			 </div>
-		   </div>
+			 </div>
+			 
+		   
 		 </div>
 		 <div className="col-md-4">
-		   <div className="card mb-4 shadow-sm">
-		   <img src= {process.env.PUBLIC_URL + 'images/telefonia.jpg'}  alt=""/>
+		 <div className='card mb-4 '>
+		   <div className="overflow">
+		   <img src= {process.env.PUBLIC_URL + 'images/telefonia.jpg'}  alt="" className='card-img-top'/>
+		   </div>
 			 <div className="card-body">
 			 <h5 className='card-tittle text-primary '>Telefonia Ip</h5>
 			   <p className="card-text">Son el servicio que te permite utilizar o tener una línea telefónica o número virtual de una ciudad a través de una conexión de internet utilizando la telefonía IP (Protocolo de Internet)</p>
@@ -88,11 +95,14 @@ class Servicios extends React.Component {
 			   </div>
 			 </div>
 		   </div>
-		 </div>
+		   </div>
+		 
 
 		 <div className="col-md-4">
-		   <div className="card mb-4 shadow-sm">
-		   <img src= {process.env.PUBLIC_URL + 'images/img1.jpg'}  alt=""/>
+		 <div className='card mb-4 '>
+		   <div className="overflow">
+		   <img src= {process.env.PUBLIC_URL + 'images/img1.jpg'}  alt="" className='card-img-top'/>
+		   </div>
 			 <div className="card-body">
 			 <h5 className='card-tittle text-primary '>Cableado estructurado</h5>
 			   <p className="card-text">El cableado estructurado es un tipo de cableado utilizado en edificios o locales con el objetivo de implantar una red de área local para transmitir información.</p>
@@ -105,10 +115,13 @@ class Servicios extends React.Component {
 			   </div>
 			 </div>
 		   </div>
-		 </div>
+		   </div>
+		 
 		 <div className="col-md-4">
-		   <div className="card mb-4 shadow-sm">
-		   <img src= {process.env.PUBLIC_URL + 'images/img2.jpg'}  alt=""/>
+		 <div className='card mb-4 '>
+		   <div className="overflow">
+		   <img src= {process.env.PUBLIC_URL + 'images/img2.jpg'}  alt="" className='card-img-top'/>
+		   </div>
 			 <div className="card-body">
 			 <h5 className='card-tittle text-primary '>Hacking Etico</h5>
  
@@ -121,12 +134,16 @@ class Servicios extends React.Component {
 				 
 			   </div>
 			 </div>
-		   </div>
+			 </div>
+		   
 		 </div>
 		 <div className="col-md-4">
-		   <div className="card mb-4 shadow-sm">
-		   <img src= {process.env.PUBLIC_URL + 'images/cableado.jpg'}  alt=""/>
-			 <div className="card-body">
+			 <div className='card mb-4 '>
+			 
+		   <div className="overflow">
+		   <img src= {process.env.PUBLIC_URL + 'images/cableado.jpg'}  alt="" className='card-img-top'/>
+		   </div>
+			 <div className="card-body ">
 			 <h5 className='card-tittle text-primary '>Administracion de redes</h5>
 			 
 			   <p className="card-text">La administración de redes suministra información a las organizaciones relacionada con rutas de recursos, redundancias inaceptables y recursos poco utilizados.</p>
@@ -139,12 +156,16 @@ class Servicios extends React.Component {
 			   </div>
 			 </div>
 		   </div>
-		 </div>
+		   </div>
+		   
+		   
+		   
+		 
 
 		 
 			   </div>
 			 </div>
-		   </div>
+			 </div>
 	   
 
  
